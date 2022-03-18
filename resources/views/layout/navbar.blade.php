@@ -53,7 +53,7 @@
                     <li class="{{Request ::is('shop-details')?'active' : '' }}"><a href="/shop-details">Shop Details</a></li>
                     <li class="{{Request ::is('shoping-cart')?'active' : '' }}"><a href="/shoping-cart">Shoping Cart</a></li>
                     <li class="{{Request ::is('checkout')?'active' : '' }}"><a href="/checkout">Check Out</a></li>
-                    <li class="{{Request ::is('blog-details')?'active' : '' }}"><a href="/blog-details">Blog Details</a></li>
+                    <li class="{{Request ::is('user')?'active' : '' }}"><a href="/user">User</a></li>
                     <li class="{{Request ::is('employee')?'active' : '' }}"><a href="/employee">Employee</a></li>
                     <li class="{{Request ::is('supplier')?'active' : '' }}"><a href="/supplier">Supplier</a></li>
                 </ul>
