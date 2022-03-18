@@ -1,4 +1,4 @@
-@extend('layout.master')
+@extends('layout.master')
 @section('content')
 
     <!-- Hero Section Begin -->
