@@ -21,4 +21,9 @@ class HomeController extends Controller
             'title' => 'Blog'
         ]);
     }
+    public function contact(){
+        return view('contact',[
+            'title' => 'Contact'
+        ]);
+    }
 }
