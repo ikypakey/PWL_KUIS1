@@ -13,13 +13,13 @@ class PelangganSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pelangans')->insert(
+        DB::table('pelanggans')->insert(
             [
                 [
                     'nama' => 'Abdul Rifai Natanegara ',
                     'alamat' => 'jl.pasuruan no 43 ',
                     'notelp' => '089765343123',
-                    'jeniskelamin' => 'Laki laki'
+                    'jeniskelamin' => 'Laki-laki'
                 ],
                 [
                     'nama' => 'Adriana Maya Politon ',
@@ -31,7 +31,7 @@ class PelangganSeeder extends Seeder
                     'nama' => 'Andre Sukendra Atmadja ',
                     'alamat' => 'jl. Raya Warungdowo no 01',
                     'notelp' => '085664783984',
-                    'jeniskelamin' => 'laki laki'
+                    'jeniskelamin' => 'Laki-laki'
                 ],
                 [
                     'nama' => 'Angela Lestari Widjaja ',
@@ -43,19 +43,19 @@ class PelangganSeeder extends Seeder
                     'nama' => 'Bayu Virgan Triyatno',
                     'alamat' => 'jl. Raya Panglima Soederman no 02',
                     'notelp' => '0856775453224',
-                    'jeniskelamin' => 'laki laki'
+                    'jeniskelamin' => 'Laki-laki'
                 ],
                 [
                     'nama' => 'Candra Winoto Salim',
                     'alamat' => 'jl. Raya Pleret no 12',
                     'notelp' => '082888765433',
-                    'jeniskelamin' => 'laki laki'
+                    'jeniskelamin' => 'Laki-laki'
                 ],
                 [
                     'nama' => 'Dewi Livia Sari ',
                     'alamat' => 'jl. Raya Purwosari no 10',
                     'notelp' => '085677998652',
-                    'jeniskelamin' => 'perempuan'
+                    'jeniskelamin' => 'Perempuan'
                 ],
             ]
             );
