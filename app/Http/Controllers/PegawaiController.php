@@ -9,7 +9,7 @@ class PegawaiController extends Controller
     public function employee(){
         return view('employee',[
             'title' => 'Pegawai',
-            'employees' => Pegawai::all()
+            'employees' => Pegawai::latest() -> paginate(4)
         ]);
 }
 }

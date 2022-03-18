@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('content')
 
-<h2 align="center">Daftar Supplier</h2>
+<h2 align="center">Daftar Pegawai</h2>
     <div class="container mt-3">
         <table class="table table-success table-striped">
             <thead>
