@@ -105,5 +105,10 @@
               </tbody>
           </table>
     </div>
+    <div class="row">
+        <ul class="pagination pagination justify-content-center">
+             {{ $pelanggans->links() }}
+         </ul>
+    </div>
 
 @endsection

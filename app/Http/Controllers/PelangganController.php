@@ -9,7 +9,7 @@ class PelangganController extends Controller
     public function user(){
         return view('user',[
             'title' => 'Pelanggan',
-            'pelanggans' => Pelanggan::all()
+            'pelanggans' => Pelanggan::latest() -> paginate(4)
         ]);
     }
 }
