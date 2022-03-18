@@ -15,7 +15,7 @@ class SupplierSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pegawais')->insert(
+        DB::table('suppliers')->insert(
             [
                 [
                     'nama' => 'CV. Mustika Jaya ',
