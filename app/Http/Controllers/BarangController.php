@@ -9,7 +9,7 @@ class BarangController extends Controller
     public function shopgrid(){
         return view('shop-grid',[
             'title' => 'Barang',
-            'barangs' => Barang::all()
+            'barangs' => Barang::latest() -> paginate(6)
         ]);
     }
 }

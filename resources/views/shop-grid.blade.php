@@ -415,5 +415,11 @@
         </div>
     </section>
     <!-- Product Section End -->
+    <div class="row">
+        <ul class="pagination pagination justify-content-center">
+             {{ $barangs->links() }}
+         </ul>
+    </div>
+
 
 @endsection
