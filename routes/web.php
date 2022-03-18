@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\SupplierController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,9 +23,7 @@ Route::get('/', function () {
 Route::get('/shop-grid', [BarangController::class, 'shopgrid']);
 Route::get('/user', [PelangganController::class, 'user']);
 Route::get('/employee', [PegawaiController::class, 'employee']);
-Route::get('/supplier', function () {
-    return view('supplier');
-});
+Route::get('/supplier', [SupplierController::class, 'supplier']);
 Route::get('/blog', function () {
     return view('blog');
 });
