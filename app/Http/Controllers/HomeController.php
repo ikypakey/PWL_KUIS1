@@ -16,4 +16,9 @@ class HomeController extends Controller
             'title' => 'Checkout'
         ]);
     }
+    public function blog(){
+        return view('blog',[
+            'title' => 'Blog'
+        ]);
+    }
 }

@@ -28,10 +28,7 @@ Route::get('/supplier', [SupplierController::class, 'supplier']);
 Route::get('/shop-details', [ShopDetailsController::class, 'shopdetails']);
 Route::get('/shoping-cart', [ShopingCartController::class, 'shopingcarts']);
 Route::get('/checkout', [HomeController::class, 'checkout']);
-
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', [HomeController::class, 'blog']);
 
 Route::get('/contact', function () {
     return view('contact');
