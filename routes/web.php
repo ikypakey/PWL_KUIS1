@@ -17,8 +17,14 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/shop-grid', [BarangController::class, 'shopgrid']);
-Route::get('/blog-details', function () {
-    return view('blog-details');
+Route::get('/user', function () {
+    return view('user');
+});
+Route::get('/employee', function () {
+    return view('employee');
+});
+Route::get('/supplier', function () {
+    return view('supplier');
 });
 Route::get('/blog', function () {
     return view('blog');
