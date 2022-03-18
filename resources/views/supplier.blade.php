@@ -99,5 +99,9 @@
               </tbody>
           </table>
     </div>
-
+        <div class="row">
+            <ul class="pagination pagination justify-content-center">
+                {{ $suppliers->links() }}
+            </ul>
+        </div>
 @endsection
