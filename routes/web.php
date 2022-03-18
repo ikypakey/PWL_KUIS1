@@ -29,7 +29,7 @@ Route::get('/contact', function () {
     return view('contact');
 });
 Route::get('/shop-details', function () {
-    return view('shop-detail');
+    return view('shop-details');
 });
 Route::get('/shop-grid', function () {
     return view('shop-grid');
