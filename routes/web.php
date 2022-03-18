@@ -34,6 +34,6 @@ Route::get('/shop-details', function () {
 Route::get('/shop-grid', function () {
     return view('shop-grid');
 });
-Route::get('/shoping-card', function () {
-    return view('shoping-card');
+Route::get('/shoping-cart', function () {
+    return view('shoping-cart');
 });
