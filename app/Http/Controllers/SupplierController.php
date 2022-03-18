@@ -10,7 +10,7 @@ class SupplierController extends Controller
     public function supplier(){
         return view('supplier',[
             'title' => 'Supplier',
-            'suppliers' => Supplier::all()
+            'suppliers' => Supplier::latest()-> paginate(4)
         ]);
 }
 }
