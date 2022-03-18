@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BarangController;
+use App\Http\Controllers\PelangganController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/shop-grid', [BarangController::class, 'shopgrid']);
-Route::get('/user', function () {
-    return view('user');
-});
+Route::get('/user', [PelangganController::class, 'user']);
 Route::get('/employee', function () {
     return view('employee');
 });
