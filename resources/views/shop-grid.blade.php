@@ -397,7 +397,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6><a href="#">{{$barang -> nama}}</a></h6>
-                                    <h5>{{$barang -> harga}}</h5>
+                                    <h5>${{$barang -> harga}}.00</h5>
                                 </div>
                             </div>
                         </div>
