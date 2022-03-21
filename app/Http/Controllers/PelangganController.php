@@ -9,6 +9,7 @@ class PelangganController extends Controller
     public function user(){
         return view('user',[
             'title' => 'Pelanggan',
+             // fungsi latest berfungsi untuk menampilkan berdasarkan data terakhir di input
             'pelanggans' => Pelanggan::latest() -> paginate(4)
         ]);
     }
