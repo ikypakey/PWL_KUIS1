@@ -17,8 +17,8 @@ class CreatePelanggansTable extends Migration
             $table->id();
             $table->String('nama');
             $table->String('alamat');
-            $table->String('notelp');
-            $table->String('jeniskelamin');
+            $table->String('notelp',13);
+            $table->String('jeniskelamin',1);
             $table->timestamps();
         });
     }
