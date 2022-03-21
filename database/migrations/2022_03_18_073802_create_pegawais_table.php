@@ -18,7 +18,7 @@ class CreatePegawaisTable extends Migration
             $table->String('gambar');
             $table->String('nama');
             $table->String('alamat',20);
-            $table->String('jabatan',15);
+            $table->String('jabatan',20);
             $table->timestamps();
         });
     }
