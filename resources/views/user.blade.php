@@ -90,7 +90,8 @@
                 <tr>
                     <th scope="row">{{$p->id}}</th>
                     <td>
-                        @if($p->jeniskelamin == 'Laki-laki')
+                        @if($p->jeniskelamin == 'L')
+                        
                         <img src="{{asset('img/profil/man.png')}}" alt="" height="50px">
                         @else 
                         <img src="{{asset('img/profil/woman.png')}}" alt="" height="50px">
@@ -99,7 +100,9 @@
                     <td>{{$p -> nama}}</td>
                     <td>{{$p -> alamat}}</td>
                     <td>{{$p -> notelp}}</td>
-                    <td>{{$p -> jeniskelamin}}</td>
+                    <td>@if($p->jeniskelamin == 'L')Laki-laki
+                    @else Perempuan 
+                    @endif</td>
                   </tr>
                 @endforeach
               </tbody>
